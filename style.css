@@ -1,0 +1,124 @@
+body {
+    background: url(image.jpg);
+  }
+  .div {
+    /* border: 2px solid greenyellow; */
+    color: white;
+    display: inline-block;
+  }
+
+  #page1 {
+    position: absolute;
+    left: 40px;
+    padding: 0px 17px;
+    top: 15px;
+  }
+  #page1 img {
+    width: 134px;
+  }
+
+  #page2 {
+    width: 39%;
+    margin: 25px auto;
+    display: block;
+  }
+
+  .myul {
+    overflow: auto;
+  }
+
+  .list {
+    text-decoration: none;
+    /* float: left; */
+    display: inline-block;
+    font-size: 30px;
+    list-style: none;
+    margin: 11px 45px;
+    cursor:pointer;
+  }
+
+  li:hover {
+    color: rgb(236, 52, 52);
+    text-decoration: underline;
+  }
+
+  #page3 {
+    position: absolute;
+    right: 51px;
+    top: 25px;
+  }
+
+  #signin {
+    background-color: rgb(214, 62, 62);
+    margin: 20px 0px 20px 11px;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+
+  #signin:hover {
+    background-color: rgb(231, 14, 14);
+  }
+
+  #lang {
+    margin: 4px -5px 20px 5px;
+    font-size: 17px;
+    border-radius: 4px;
+    color: rgb(228, 93, 93);
+  }
+
+  .container {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(43, 37, 37);
+    /* border: 2px solid greenyellow; */
+    color: rgb(235, 9, 9);
+    margin: 126px auto 12px auto;
+    padding: 0px 4px;
+    width: 50%;
+    font-size: 37px;
+    line-height: 50px;
+  }
+
+  .info {
+    /* border: 2px solid greenyellow; */
+    /* background-color: #133e3e; */
+    color: rgb(227, 209, 74);
+    display: block;
+    width: 50%;
+    margin: 10px auto 100px auto;
+    font-size: 22px;
+  }
+
+  span {
+    color: #2cd60a;
+  }
+
+  #searchbar {
+    position: absolute;
+    background-color: rgb(146, 143, 143);
+    color:white;
+    top: 498px;
+    left: 359px;
+    width: 40%;
+    padding: 4px;
+   font-size: 31px;
+   font-family: 'Barlow', sans-serif;
+  }
+
+ 
+
+  #submitbtn{
+    position: absolute;
+    top: 499px;
+    left: 947px;
+    width: 8%;
+    padding: 4px;
+    font-size: 31px;
+    /* font-family: 'Barlow', sans-serif;  */
+    /* font-family: "Montserrat", sans-serif; */
+    background-color: rgb(232, 41, 41);
+    border-radius: 4px;
+  }
+
+  #submitbtn:hover{
+      background-color: #e9ff00;
+  }
